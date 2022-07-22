@@ -1,9 +1,9 @@
 .welcome-header {
-  margin: 90px 0;
+  margin: 90px 0px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 .welcome-header__title {
   margin-bottom: 20px;
@@ -17,19 +17,14 @@
 #login-form {
   display: flex;
   flex-direction: column;
-  margin: 0 30px;
+  margin: 0px 30px;
 }
 
 #login-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
-
   margin-bottom: 25px;
-}
-
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
 }
 
 #login-form input:not([type="submit"]) {
@@ -37,8 +32,12 @@
   transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input:not([type="submit"]):focus {
-  border-bottom: 1px solid var(--yellow);
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {

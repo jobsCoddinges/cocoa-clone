@@ -1,3 +1,3 @@
-# kokoa clone 2020 update
+# Kokoa Clone 2020 Update
 
 HTML & CSS are so much fun!
